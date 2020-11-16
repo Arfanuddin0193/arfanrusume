@@ -1,23 +1,35 @@
-/* Your external CSS styles go here */
+p{
+    text-align: center;
 
-
+}
 .para{
     color: rgb(54, 112, 0);
 }
-.header{
+.header {
+    float: left;
     text-align: center;
-    
     padding: 73px;
     color: royalblue;
-    height: 100px;
-    width: auto;
-    background-color: red;
+    height: 400px;
+    width: 100%;
+    background-color: sandybrown;
+}
+
+.header2{
+    float: left; 
+ height: 500px;
+ background-color: brown;
 }
 .header h1{
-    font-size: 40px;
+     font-size: 100px;;
     margin: 0px;
     padding: 0px;
     color: royalblue;
+}
+.contentArea{
+    width: 50%;
+    float: left;
+   background-color: saddlebrown;
 }
 .header p{
     
@@ -31,4 +43,18 @@
 p{
     text-align: center;
 
+}
+
+.header1 {
+
+    background-color: saddlebrown;
+    width: 400px;
+    height: 150;
+    font-size: 35;
+}
+
+
+.header5 {
+    width: 250px;
+    height: 150px;
 }
